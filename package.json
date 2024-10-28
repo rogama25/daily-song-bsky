@@ -1,0 +1,26 @@
+{
+  "name": "daily-song-bsky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "token": "tsx src/spotify.ts",
+    "start": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "rogama25",
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@skyware/bot": "^0.3.6",
+    "@spotify/web-api-ts-sdk": "^1.2.0",
+    "dotenv": "^16.4.5",
+    "node-schedule": "^2.1.1",
+    "randomstring": "^1.3.0"
+  },
+  "devDependencies": {
+    "@types/node-schedule": "^2.1.7",
+    "@types/randomstring": "^1.3.0",
+    "tsx": "^4.19.2"
+  }
+}
